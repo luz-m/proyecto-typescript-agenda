@@ -10,7 +10,7 @@ export class Direccion{
     provincia:string;
 
     /*Constructor*/
-    constructor(calle:string, numero:number, piso:number, letra:string, cp:number, poblacion:string, provincia:string){
+    constructor(calle:string, numero:number, piso:number, letra:string, cp:number, poblacion:string, provincia: string){
         this.calle = calle;
         this.numero = numero;
         this.piso = piso;

@@ -5,7 +5,7 @@ export class Mail{
     email:string;
 
     /*Constructor*/
-    constructor(tipo:string, email:string){
+    constructor(tipo:string, email:string;){
         this.tipo = tipo;
         this.email = email;
     }
