@@ -6,19 +6,6 @@ var Mail = /** @class */ (function () {
         this.tipo = tipo;
         this.email = email;
     }
-    /*Métodos*/
-    Mail.prototype.getTipo = function () {
-        return this.tipo;
-    };
-    Mail.prototype.setTipo = function (tipo) {
-        this.tipo = tipo;
-    };
-    Mail.prototype.getMail = function () {
-        return this.email;
-    };
-    Mail.prototype.setMail = function (email) {
-        this.email = email;
-    };
     return Mail;
 }());
 exports.Mail = Mail;
